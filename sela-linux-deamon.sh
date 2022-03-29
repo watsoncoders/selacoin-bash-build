@@ -2,7 +2,7 @@
 sudo apt-get update && sudo apt-get upgrade -y;
 sudo apt-get install libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev -y;
 sudo apt-get install libdb-dev libdb++-dev libminiupnpc-dev -y;
-wget "https://github.com/wattson-coder/SelaCoin/blob/main/builds/selacoin-daemon-linux.tar.gz" -O selacoin-daemon-linux.tar.gz;
+wget "https://github.com/wattson-coder/selacoin-bash-build/blob/main/selacoin-daemon-linux.tar.gz?raw=true" -O selacoin-daemon-linux.tar.gz;
 tar -xzvf selacoin-daemon-linux.tar.gz;
 sudo mv selacoind /usr/bin/;
 mkdir "$HOME"/.selacoin;
