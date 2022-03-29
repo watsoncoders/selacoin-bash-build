@@ -1,4 +1,3 @@
-#!/bin/sh
 sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev -y
 sudo apt-get install libdb-dev libdb++-dev libminiupnpc-dev -y
